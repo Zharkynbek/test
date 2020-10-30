@@ -447,40 +447,76 @@ a {
   margin-left: auto;
 }
 
-.logo-icons li {
+.company-icons1 {
+  display: inline-block;
   width: 170px;
   height: 90px;
+  background-image: url(../images/logo-icons/logo1.svg);
   background-repeat: no-repeat;
+  background-size: 40px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   background-position: center;
-  cursor: pointer;
 }
 
-.logo-icons li:nth-child(1) {
-  background-image: url(../images/logo-icons/logo1.svg);
-}
-
-.logo-icons li:nth-child(2) {
+.company-icons2 {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
   background-image: url(../images/logo-icons/logo2.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-position: center;
 }
 
-.logo-icons li:nth-child(3) {
+.company-icons3 {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
   background-image: url(../images/logo-icons/logo3.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-position: center;
 }
 
-.logo-icons li:nth-child(4) {
-  color: #afb1b8;
-
+.company-icons4 {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
   background-image: url(../images/logo-icons/logo4.svg);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-position: center;
 }
 
-.logo-icons li:nth-child(5) {
+.company-icons5 {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
   background-image: url(../images/logo-icons/logo5.svg);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-position: center;
 }
 
-.logo-icons li:nth-child(6) {
+.company-icons6 {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
   background-image: url(../images/logo-icons/logo6.svg);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-position: center;
 }
 
 .logo-icons li:not(:last-child) {
@@ -625,7 +661,7 @@ address {
 
 .social-link p {
   margin-bottom: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.145;
   color: #fff;
@@ -635,22 +671,79 @@ address {
   margin: 0;
 }
 
-.social-link-footer {
-  width: 44px;
-  height: 44px;
-  padding: 12px 12px;
-  margin-top: 16px;
-  margin-bottom: 0;
+.social-link-instagram {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-image: url(../images/social-icons/instagram.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-footer li:hover,
-.social-footer li:focus {
+.social-link-twitter {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-image: url(../images/social-icons/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link-facebook {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-image: url(../images/social-icons/facebook.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link-linkedin {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-image: url(../images/social-icons/linkedin.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link-instagram:hover,
+.social-link-instagram:focus {
   background-color: var(--logo-color);
 }
 
-.social-link-footer:not(:last-child) {
+.social-link-twitter:hover,
+.social-link-twitter:focus {
+  background-color: var(--logo-color);
+}
+
+.social-link-facebook:hover,
+.social-link-facebook:focus {
+  background-color: var(--logo-color);
+}
+
+.social-link-linkedin:hover,
+.social-link-linkedin:focus {
+  background-color: var(--logo-color);
+}
+
+.social-footer li:not(:last-child) {
   margin-right: 10px;
 }
 
