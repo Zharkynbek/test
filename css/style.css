@@ -2,17 +2,12 @@ body {
   background-color: rgb(201, 144, 144);
 }
 
-.facebook {
-  width: 19px;
-  height: 20px;
+.button {
+  padding: 0;
+  border: none;
 }
 
-.social-links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  fill: red;
+.button-icon {
+  width: 100px;
+  height: 100px;
 }
