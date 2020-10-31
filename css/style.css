@@ -381,55 +381,12 @@ a {
 .social-icons {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 
 .social-icons:hover {
   fill: #ffffff;
 }
-
-/* .social .icon-instagram {
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  border: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../images/instagram.svg");
-}
-
-.social .icon-twitter {
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  border: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../images/twitter.svg");
-}
-
-.social .icon-facebook {
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  border: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../images/facebook.svg");
-}
-
-.social .icon-linkedin {
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  border: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../images/linkedin.svg");
-} */
 
 .social li {
   padding: 12px 12px;
