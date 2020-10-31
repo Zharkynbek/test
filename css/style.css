@@ -503,7 +503,22 @@ a {
   margin-left: auto;
 }
 
-.company-icons1 {
+.company {
+  padding: 0;
+  border: none;
+}
+
+.company-icon {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+/* .company-icons1 {
   display: inline-block;
   width: 170px;
   height: 90px;
@@ -573,7 +588,7 @@ a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   background-position: center;
-}
+} */
 
 .logo-icons li:not(:last-child) {
   margin-right: 10px;
