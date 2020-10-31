@@ -372,7 +372,7 @@ a {
 .social {
   display: flex;
   padding: 0;
-  margin-top: 16px;
+  margin-top: 0;
   margin-bottom: 0;
   justify-content: center;
 }
@@ -384,14 +384,11 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-
-.social-icons {
   fill: #afb1b8;
 }
 
-.social-icons:hover {
-  fill: #fff;
+.icons:hover {
+  fill: #ffffff;
 }
 
 .icons:hover {
