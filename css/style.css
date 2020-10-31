@@ -503,14 +503,15 @@ a {
   margin-left: auto;
 }
 
-.company-icon {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-size: 40px;
+.logo-icons li {
+  padding: 20px 62px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.company-icon {
+  width: 44px;
+  height: 44px;
 }
 
 /* .company-icons1 {
