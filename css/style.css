@@ -379,13 +379,12 @@ a {
 
 .icons {
   display: inline-block;
-  padding: 12px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
 }
 
 .social-icons {
-  width: 20px;
-  height: 20px;
   fill: #afb1b8;
 }
 
@@ -394,6 +393,7 @@ a {
 }
 
 .icons:hover {
+  fill: #ffffff;
   background-color: var(--logo-color);
 }
 
@@ -699,7 +699,9 @@ address {
 }
 
 .footer-icons {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
