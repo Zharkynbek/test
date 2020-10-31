@@ -373,6 +373,16 @@ a {
   display: flex;
 }
 
+.icons {
+  padding: 0;
+  border: none;
+}
+
+.social-icons {
+  width: 20px;
+  height: 20px;
+}
+
 /* .social .icon-instagram {
   display: block;
   width: 20px;
