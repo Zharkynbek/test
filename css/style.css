@@ -770,12 +770,18 @@ address {
 .footer-icons {
   display: inline-block;
   padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icons:hover {
+  background-color: var(--logo-color);
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: #fff;
 }
 
 .street {
