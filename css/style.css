@@ -389,6 +389,10 @@ a {
   fill: #afb1b8;
 }
 
+.social-icons:hover {
+  fill: #fff;
+}
+
 .icons:hover {
   background-color: var(--logo-color);
 }
