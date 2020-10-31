@@ -397,7 +397,6 @@ a {
 
 .social li:hover,
 .social li:focus {
-  fill: #fff;
   background-color: var(--logo-color);
 }
 
@@ -429,7 +428,7 @@ a {
   text-align: center;
 }
 
-.name-title {
+.socia .name-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -768,6 +767,19 @@ address {
 .social-footer {
   display: flex;
   padding-left: 0;
+}
+
+.social-footer li {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-icon {
+  padding: 20px 20px;
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
 
 .street {
