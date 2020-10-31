@@ -769,10 +769,9 @@ address {
   padding-left: 0;
 }
 
-.social-footer li {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.social-link-footer {
+  padding: 0;
+  border: none;
 }
 
 .social-icon {
