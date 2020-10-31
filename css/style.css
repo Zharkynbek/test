@@ -383,6 +383,10 @@ a {
   height: 20px;
 }
 
+.social-icons:hover {
+  fill: #ffffff;
+}
+
 /* .social .icon-instagram {
   display: block;
   width: 20px;
@@ -503,18 +507,7 @@ a {
   margin-left: auto;
 }
 
-.logo-icons li {
-  padding: 20px 62px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-
-.company-icon {
-  width: 44px;
-  height: 44px;
-}
-
-/* .company-icons1 {
+.company-icons1 {
   display: inline-block;
   width: 170px;
   height: 90px;
@@ -584,7 +577,7 @@ a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   background-position: center;
-} */
+}
 
 .logo-icons li:not(:last-child) {
   margin-right: 30px;
