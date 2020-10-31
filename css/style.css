@@ -399,11 +399,6 @@ a {
   border-radius: 50%;
 }
 
-.social li:hover,
-.social li:focus {
-  background-color: var(--logo-color);
-}
-
 .social li:not(:last-child) {
   margin-right: 10px;
 }
