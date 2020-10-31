@@ -436,6 +436,7 @@ a {
 
 .social li:hover,
 .social li:focus {
+  color: #fff;
   background-color: var(--logo-color);
 }
 
