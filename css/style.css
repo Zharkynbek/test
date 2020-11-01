@@ -142,29 +142,23 @@ a {
   align-items: center;
 }
 
-.item-info::before {
+.link {
+  display: flex;
+  align-items: center;
+  fill: #757575;
+}
+
+.link-icon {
   margin-right: 10px;
-  content: "";
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.item-info:nth-child(1)::before {
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  background-image: url("../images/konvert.svg");
+.link:hover,
+.link:focus {
+  color: var(--logo-color);
+  fill: var(--logo-color);
 }
 
-.item-info:nth-child(2)::before {
-  display: inline-block;
-  width: 10px;
-  height: 16px;
-  background-image: url("../images/tel.svg");
-}
-
-.link-type .item-info {
+.item-info {
   margin-right: 50px;
 }
 
@@ -182,11 +176,6 @@ a {
 
 .link-type a {
   color: var(--primery-text-color);
-}
-
-.link-type .link:hover,
-.link-type .link:focus {
-  color: var(--logo-color);
 }
 
 .primery-section {
@@ -260,32 +249,14 @@ a {
   margin-right: 0;
 }
 
-.second-icon::before {
-  display: block;
-  background-color: #f5f4fa;
+.second-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 270px;
   height: 120px;
-  content: "";
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-  padding: 25px 102px;
-}
-
-.second-icon:nth-child(1)::before {
-  background-image: url("../images/antenna.svg");
-}
-
-.second-icon:nth-child(2)::before {
-  background-image: url("../images/clock.svg");
-}
-
-.second-icon:nth-child(3)::before {
-  background-image: url("../images/diagramm.svg");
-}
-
-.second-icon:nth-child(4)::before {
-  background-image: url("../images/astronavt.svg");
+  background-color: #f5f4fa;
 }
 
 .second-container {
@@ -296,12 +267,15 @@ a {
 }
 
 .second-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
 }
 
 .second-text {
+  margin: 0;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
@@ -387,11 +361,8 @@ a {
   fill: #afb1b8;
 }
 
-.icons:hover {
-  fill: #ffffff;
-}
-
-.icons:hover {
+.icons:hover,
+.icons:focus {
   fill: #ffffff;
   background-color: var(--logo-color);
 }
@@ -465,82 +436,22 @@ a {
   margin-left: auto;
 }
 
-.company-icons1 {
+.company-icons {
   display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
-  background-image: url(../images/logo1.svg);
-  background-repeat: no-repeat;
-  background-size: 40px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  background-position: center;
-}
-
-.company-icons2 {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  background-image: url(../images/logo2.svg);
-  background-repeat: no-repeat;
-  background-size: 40px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  background-position: center;
-}
-
-.company-icons3 {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  background-image: url(../images/logo3.svg);
-  background-repeat: no-repeat;
-  background-size: 40px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  background-position: center;
-}
-
-.company-icons4 {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  background-image: url(../images/logo4.svg);
-  background-repeat: no-repeat;
-  background-size: 70px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  background-position: center;
-}
-
-.company-icons5 {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  background-image: url(../images/logo5.svg);
-  background-repeat: no-repeat;
-  background-size: 50px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  background-position: center;
-}
-
-.company-icons6 {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  background-image: url(../images/logo6.svg);
-  background-repeat: no-repeat;
-  background-size: 70px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  background-position: center;
 }
 
 .logo-icons li:not(:last-child) {
   margin-right: 30px;
 }
 
+.logo-icons li:hover,
 .logo-icons li:hover {
   color: var(--logo-color);
 }
@@ -707,7 +618,8 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-icons:hover {
+.footer-icons:hover,
+.footer-icons:focus {
   background-color: var(--logo-color);
 }
 
