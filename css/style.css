@@ -658,6 +658,14 @@ a {
   padding-bottom: 0;
 }
 
+.thumb {
+  position: relative;
+}
+
+.thumb-text {
+  position: absolute;
+}
+
 img {
   display: block;
   width: 100%;
