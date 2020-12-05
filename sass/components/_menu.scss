@@ -1,0 +1,19 @@
+.menu-list {
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu-link {
+  font-weight: 400;
+  color: rgba(30, 21, 51, 0.5);
+  transition: color 800ms linear, font-weight 800ms linear;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  font-weight: 700;
+  color: rgb(30, 21, 51);
+}

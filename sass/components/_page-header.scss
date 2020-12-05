@@ -1,0 +1,171 @@
+$primery-text-color: #757575;
+$primery-title-color: #212121;
+$logo-color: #2196f3;
+
+.header {
+  background-color: #fff;
+}
+
+.logotip {
+  display: inline;
+  .web {
+    color: $logo-color;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+  }
+
+  .high-studio {
+    color: $primery-title-color;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    margin-right: 93px;
+  }
+}
+
+.nav {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.site-navi {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  .item {
+    margin-right: 50px;
+  }
+  .item:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-navi a {
+  color: $primery-title-color;
+}
+
+.site-navi .link {
+  display: block;
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  .site-navi .link::after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    opacity: 0;
+    background-color: $logo-color;
+    -webkit-transition-property: $logo-color;
+    transition-property: $logo-color;
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    a {
+      color: $primery-title-color;
+    }
+  }
+}
+
+.site-navi .link:hover,
+.site-navi .link:focus {
+  color: $logo-color;
+  &:after,
+  &:after {
+    opacity: 1;
+  }
+}
+
+.link-type {
+  display: flex;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  .item-info {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .link {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    fill: #757575;
+    transition-property: $logo-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    .link-icon {
+      margin-right: 10px;
+    }
+    &:hover,
+    &:focus {
+      outline: none;
+      color: $logo-color;
+      fill: $logo-color;
+    }
+  }
+  a {
+    color: $primery-text-color;
+  }
+}
+
+.first-navi {
+  color: $logo-color;
+  :after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: $logo-color;
+    transition-property: $logo-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.second-navi {
+  color: $logo-color;
+  :after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: $logo-color;
+    transition-property: $logo-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

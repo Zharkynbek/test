@@ -1,330 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
-        integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
-        crossorigin="anonymous" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-    <!--SHAPKA-->
-
-
-    <header class="header">
-        <div class="container">
-
-            <div class="nav">
-                <nav class="main-nav">
-                    <a href=""><span class="web">Web</span><span class="high-studio">Studio</span></a>
-                    <ul class="site-navi list">
-                        <li class="item"><a class="link" href=""><span class="first-navi">Студия</span></a></li>
-                        <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="item"><a class="link" href="">Контакты</a></li>
-                    </ul>
-                </nav>
-                <ul class="link-type list">
-                    <li class="item-info">
-
-                        <a class="link" href="mailto:info@devstudio.com">
-                            <svg class="link-icon" width="16" height="12">
-                                <use href="./images/sprite.svg#konvert"></use>
-                            </svg>info@devstudio.com</a></li>
-
-
-
-                    <li class="item-info">
-                        <a class="link" href="tel:+380961111111">
-                            <svg class="link-icon" width="10" height="16">
-                                <use href="./images/sprite.svg#tel"></use>
-                            </svg>+38 096 111 11 11</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
+    <title>Trafalgar</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <div class="container header-container">
+        <a href="./" class="logo"
+          ><img src="./img/header-logo.png" alt="" class="logo-img" />
+          <span>Trafalgar</span></a
+        >
+        <ul class="list menu-list">
+          <li class="menu-item"><a href="#" class="link menu-link">Home</a></li>
+          <li class="menu-item">
+            <a href="#" class="link menu-link">Find a doctor</a>
+          </li>
+          <li class="menu-item"><a href="#" class="link menu-link">Apps</a></li>
+          <li class="menu-item">
+            <a href="#" class="link menu-link">Testimonials</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="link menu-link">About us</a>
+          </li>
+        </ul>
+      </div>
+    </header> -->
     <main>
-
-        <!--GLAVNYI ZAGOLOVOK-->
-        <section class="primery-section">
-            <div class="container">
-                <h1 class="primery-title">
-                    ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА
-                </h1>
-                <div class="order-type">
-                    <button class="order" type="button" data-modal-open>Заказать услугу</button></div>
-                    <div class="backdrop is-hidden" data-modal>
-                        <div class="modal"><p>Lorem ipsum dolor sit amet, consectetur 
-                            adipisicing elit. Temporibus suscipit, eaque eligendi laboriosam facere sequi. 
-                            Quis commodi maiores minima. Porro deleniti minus dicta ipsa 
-                            nemo non velit reiciendis rem. Amet.</p>
-                            <button class="btn-closed" data-modal-close>Закрыть</button>
-                        </div>
-                    </div>
-            </div>
-        </section>
-
-
-        <!--SPISOK KACHESTV-->
-        <section class="second-section">
-            <div class="container">
-                <h2 class="skryt">skroi menya</h2>
-
-                <ul class="second-list list">
-                    <li class="second-icon">
-                        <div class="second-skills">
-                            <svg class="second-sklills-icon" width="70" height="70">
-                                <use href="./images/sprite.svg#antenna"></use>
-                            </svg></div>
-                        <h3 class="second-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-                        <p class="second-text">
-                            Идейные соображения, а также начало повседневной работы по
-                            формированию позиции.
-                        </p>
-                    </li>
-                    <li class="second-icon">
-                        <div class="second-skills">
-                            <svg class="second-sklills-icon" width="70" height="70">
-                                <use href="./images/sprite.svg#clock"></use>
-                            </svg></div>
-                        <h3 class="second-title">ПУНКТУАЛЬНОСТЬ</h3>
-                        <p class="second-text">
-                            Задача организации, в особенности же рамки и место обучения кадров
-                            влечет за собой.
-                        </p>
-                    </li>
-                    <li class="second-icon">
-                        <div class="second-skills">
-                            <svg class="second-sklills-icon" width="70" height="70">
-                                <use href="./images/sprite.svg#diagramm"></use>
-                            </svg></div>
-                        <h3 class="second-title">ПЛАНИРОВАНИЕ</h3>
-                        <p class="second-text">
-                            Равным образом консультация с широким активом в значительной степени обуславливает.
-                        </p>
-                    </li>
-                    <li class="second-icon">
-                        <div class="second-skills">
-                            <svg class="second-sklills-icon" width="70" height="70">
-                                <use href="./images/sprite.svg#astronavt"></use>
-                            </svg></div>
-                        <h3 class="second-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                        <p class="second-text">
-                            Значимость этих проблем настолько очевидна, что реализация
-                            плановых заданий.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!--WHAT WE DO-->
-        <section class="foto-section">
-
-            <div class="container">
-                <h2 class="second-big-title">Чем мы занимаемся</h2>
-                <ul class="second-item list">
-                    <li class="item">
-                        <img src="./images/tablet-keyboard.png" alt="кейбоард" width="370" />
-                    </li>
-                    <li class="item">
-                        <img src="./images/handy-pc.png" alt="смартфон" width="370" />
-                    </li>
-                    <li class="item">
-                        <img src="./images/pc-tablet.png" alt="пктаблет" width="370" />
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-        <!--SPISOK SOTRUDNIKOV-->
-        <section class="tretii-section">
-            <div class="container">
-                <h2 class="tretii-big-title">Наша команда</h2>
-                <ul class="tretii-list list">
-                    <li class="team-item">
-                        <img src="./images/igor.jpg" alt="дизайнер" width="270" />
-                        <h3 class="name-title">Игорь Демьяненко</h3>
-                        <p class="name-text">Product Designer</p>
-                        <ul class="social list">
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#instagram"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#twitter"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#facebook"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#linkedin"></use>
-                                    </svg></a></li>
-                        </ul>
-                    </li>
-                    <li class="team-item">
-                        <img src="./images/olga.jpg" alt="фронтенд" width="270" />
-                        <h3 class="name-title">Ольга Репина</h3>
-                        <p class="name-text">Frontend Developer</p>
-                        <ul class="social list">
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#instagram"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#twitter"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#facebook"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#linkedin"></use>
-                                    </svg></a></li>
-                        </ul>
-                    </li>
-                    <li class="team-item">
-                        <img src="./images/kolya.jpg" alt="маркетинг" width="270" />
-                        <h3 class="name-title">Николай Тарасов</h3>
-                        <p class="name-text">Marketing</p>
-                        <ul class="social list">
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#instagram"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#twitter"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#facebook"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#linkedin"></use>
-                                    </svg></a></li>
-                        </ul>
-                    </li>
-
-                    <li class="team-item">
-                        <img src="./images/misha.jpg" alt="уидизайн" width="270" />
-                        <h3 class="name-title">Михаил Ермаков</h3>
-                        <p class="name-text">UI Designer</p>
-                        <ul class="social list">
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#instagram"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#twitter"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#facebook"></use>
-                                    </svg></a></li>
-                            <li><a class="icons" href=""><svg class="social-icons" width="20px" height="20px">
-                                        <use href="./images/sprite.svg#linkedin"></use>
-                                    </svg></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-
-
-
-
-
-
-
-
-        </section>
-        <!--KLIENTY-->
-        <section class="client">
-            <div class="container">
-                <h2 class="tretii-big-title">Поcтоянные клиенты</h2>
-                <ul class="logo-icons list">
-                    <li><a class="company-icons" href="">
-                            <svg width="42.27" height="49.23">
-                                <use href="./images/sprite.svg#logo1"></use>
-                            </svg>
-                        </a></li>
-                    <li><a class="company-icons" href="">
-                            <svg width="40" height="52">
-                                <use href="./images/sprite.svg#logo2"></use>
-                            </svg>
-                        </a></li>
-                    <li><a class="company-icons" href="">
-                            <svg width="41" height="42.6">
-                                <use href="./images/sprite.svg#logo3"></use>
-                            </svg>
-                        </a></li>
-                    <li><a class="company-icons" href="">
-                            <svg width="79.66" height="42.02">
-                                <use href="./images/sprite.svg#logo4"></use>
-                            </svg>
-                        </a></li>
-                    <li><a class="company-icons" href="">
-                            <svg width="59" height="47">
-                                <use href="./images/sprite.svg#logo5"></use>
-                            </svg>
-                        </a></li>
-                    <li><a class="company-icons" href="">
-                            <svg width="88.48" height="45.44">
-                                <use href="./images/sprite.svg#logo6"></use>
-                            </svg>
-                        </a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <!--KONEC-->
-
-    <footer>
-        <div class="container flexbox">
-
-            <div class="content-box">
-                <a href="index.html"><span class="web">Web</span><span class="under-studio">Studio</span></a>
-                <address class="street">
-                    г. Киев, пр-т Леси Украинки, 26
-                    <ul class="link-info list">
-                        <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-                        <li><a class="link" href="tel:+380961111111">+38 099 111 11 11</a></li>
-                    </ul>
-                </address>
-
-            </div>
-            <div class="social-link content-box">
-                <p>ПРИCОЕДИНЯЙТЕCЬ</p>
-
-                <ul class="social-footer list">
-                    <li><a class="footer-icons" href="">
-                            <svg class="social-icon" width="20px" height="20px">
-                                <use href="./images/sprite.svg#instagram"></use>
-                            </svg></a></li>
-
-                    <li><a class="footer-icons" href="">
-                            <svg class="social-icon" width="20px" height="20px">
-                                <use href="./images/sprite.svg#twitter"></use>
-                            </svg></a></li>
-
-                    <li><a class="footer-icons" href="">
-                            <svg class="social-icon" width="20px" height="20px">
-                                <use href="./images/sprite.svg#facebook"></use>
-                            </svg></a></li>
-
-                    <li><a class="footer-icons" href="">
-                            <svg class="social-icon" width="20px" height="20px">
-                                <use href="./images/sprite.svg#linkedin"></use>
-                            </svg></a></li>
-
-                </ul>
-
-
-            </div>
+      <section class="section hero">
+        <div class="container">
+          <div class="content-wrapper">
+            <h1 class="title page-title">Virtual healthcare for you</h1>
+            <p>
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+            <button class="btn btn-accent" type="button">Consult today</button>
+          </div>
         </div>
-    </footer>
-    <script src="./js/modal.js"></script>
+      </section>
+      <section class="services section">
+        <div class="container">
+          <div class="text-center section-header">
+            <h2 class="title section-title">Our services</h2>
+            <p>
+              We provide to you the best choiches for you. Adjust it to your
+              health needs and make sure your undergo treatment with our highly
+              qualified doctors you can consult with us which type of service is
+              suitable for your health
+            </p>
+          </div>
+          <ul class="service-list list">
+            <li class="services-item search-doctor">
+              <h3 class="title item-title">Search doctor</h3>
+              <p>
+                Choose your doctor from thousands of specialist, general, and
+                trusted hospitals
+              </p>
+            </li>
+            <li class="services-item online-pharmacy">
+              <h3 class="title item-title">Online pharmacy</h3>
+              <p>
+                Buy your medicines with our mobile application with a simple
+                delivery system
+              </p>
+            </li>
+            <li class="services-item consultation">
+              <h3 class="title item-title">Consultation</h3>
+              <p>
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
+            </li>
+            <li class="services-item details-info">
+              <h3 class="title item-title">Details info</h3>
+              <p>
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
+            </li>
+            <li class="services-item emergency-care">
+              <h3 class="title item-title">Emergency care</h3>
+              <p>
+                You can get 24/7 urgent care for yourself or your children and
+                your lovely family
+              </p>
+            </li>
+            <li class="services-item tracking">
+              <h3 class="title item-title">Tracking</h3>
+              <p>Track and save your medical history and health data</p>
+            </li>
+          </ul>
+          <div class="btn-wrap">
+            <button class="btn" type="button">Learn more</button>
+          </div>
+        </div>
+      </section>
+      <section class="section providers">
+        <div class="container">
+          <div class="content-wrapper">
+            <h2 class="title section-title">Leading healthcare providers</h2>
+            <p>
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it’s not just
+              work. We take pride in the solutions we deliver
+            </p>
+            <button class="btn" type="button">Learn more</button>
+          </div>
+        </div>
+      </section>
 
-</body>
+      <section class="section app-store">
+        <div class="container">
+          <div class="content-wrapper">
+            <h2 class="title section-title">
+              Download our <br />
+              mobile apps
+            </h2>
+            <p>
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </p>
+            <a href="#" class="btn" download
+              >Download
+              <svg class="vector">
+                <use href="./img/symbol-defs.svg#arrow-down"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
 
+      <!-- <section class="section review">
+        <div class="container">
+          <div class="section-bg">
+            <h2 class="title section-title">What our customer are saying</h2>
+            <div class="slider">
+              <article class="slider-article">
+                <div class="slider-customer flexed">
+                  <img
+                    width="133"
+                    height="133"
+                    class="slider-img"
+                    src="./img/image1.png"
+                    alt="foto"
+                  />
+                  <div class="customer-name">
+                    <h3 class="customer-name-title">Edward Newgate</h3>
+                    <p class="customer-name-position">Founder Circle</p>
+                  </div>
+                </div>
+                <div class="slider-customer">
+                  <p>
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </article>
+              <article class="slider-article">
+                <div class="slider-customer flexed">
+                  <img
+                    width="133"
+                    height="133"
+                    class="slider-img"
+                    src="./img/nikolaytarasov.jpg"
+                    alt="foto"
+                  />
+                  <div class="customer-name">
+                    <h3 class="customer-name-title">Edward Newgate</h3>
+                    <p class="customer-name-position">Founder Circle</p>
+                  </div>
+                </div>
+                <div class="slider-customer">
+                  <p>
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </article>
+              <article class="slider-article">
+                <div class="slider-customer flexed">
+                  <img
+                    width="133"
+                    height="133"
+                    class="slider-img"
+                    src="./img/olharepina.jpg"
+                    alt="foto"
+                  />
+                  <div class="customer-name">
+                    <h3 class="customer-name-title">Edward Newgate</h3>
+                    <p class="customer-name-position">Founder Circle</p>
+                  </div>
+                </div>
+                <div class="slider-customer">
+                  <p>
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </article>
+              <article class="slider-article">
+                <div class="slider-customer flexed">
+                  <img
+                    width="133"
+                    height="133"
+                    class="slider-img"
+                    src="./img/mihailjermakov.jpg"
+                    alt="foto"
+                  />
+                  <div class="customer-name">
+                    <h3 class="customer-name-title">Edward Newgate</h3>
+                    <p class="customer-name-position">Founder Circle</p>
+                  </div>
+                </div>
+                <div class="slider-customer">
+                  <p>
+                    “Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely”
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- <section class="section">
+        <div class="container">
+          <h2 class="title section-title text-center">
+            Check out our latest article
+          </h2>
+          <ul class="list articles">
+            <li class="articles-item">
+              <img src="./img/image2.png" alt="Disease detection" />
+              <div class="article-wrap">
+                <h3 class="title item-title article-title">
+                  Disease detection, check up in the laboratory
+                </h3>
+                <p class="article-text">
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </p>
+                <a class="link read-more" href="#"
+                  >Read more
+                  <svg width="15" height="9" class="vector">
+                    <use href="./img/symbol-defs.svg#arrow-forward"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="articles-item">
+              <img src="./img/image3.png" alt="Herbal medicines" />
+              <div class="article-wrap">
+                <h3 class="title item-title article-title">
+                  Herbal medicines that are safe for consumption
+                </h3>
+                <p class="article-text">
+                  Herbal medicine is very widely used at this time because of
+                  its very good for your health...
+                </p>
+                <a class="link read-more" href="#"
+                  >Read more
+                  <svg width="15" height="9" class="vector">
+                    <use href="./img/symbol-defs.svg#arrow-forward"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="articles-item">
+              <img src="./img/image4.png" alt="Natural care" />
+              <div class="article-wrap">
+                <h3 class="title item-title article-title">
+                  Natural care for healthy facial skin
+                </h3>
+                <p class="article-text">
+                  A healthy lifestyle should start from now and also for your
+                  skin health. There are some...
+                </p>
+                <a class="link read-more" href=""
+                  >Read more
+                  <svg width="15" height="9" class="vector">
+                    <use href="./img/symbol-defs.svg#arrow-forward"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="btn-wrap">
+            <button class="btn" type="button">View all</button>
+          </div>
+        </div>
+      </section> -->
+    </main>
+    <!-- <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-content copyright-box">
+          <a class="logo" href="./">
+            <img class="logo-img" src="./img/footer-logo.png" alt="" />
+            Trafalgar</a
+          >
+          <p>
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <p class="copyright">
+            &copy;Trafalgar PTY LTD 2020. All rights reserved
+          </p>
+        </div>
+        <div class="footer-content footed-menu">
+          <ul class="list menu-list">
+            <li class="footer-menu-item">
+              <h2>Company</h2>
+              <ul class="list">
+                <li><a class="link footer-menu-link" href="">About</a></li>
+                <li>
+                  <a class="link footer-menu-link" href="">Testimonial</a>
+                </li>
+                <li>
+                  <a class="link footer-menu-link" href="">Find a doctor</a>
+                </li>
+                <li><a class="link footer-menu-link" href="">Apps</a></li>
+              </ul>
+            </li>
+            <li class="footer-menu-item">
+              <h2>Region</h2>
+              <ul class="list">
+                <li><a class="link footer-menu-link" href="">Indonesia</a></li>
+                <li><a class="link footer-menu-link" href="">Singapore</a></li>
+                <li><a class="link footer-menu-link" href="">Hongkong</a></li>
+                <li><a class="link footer-menu-link" href="">Canada</a></li>
+              </ul>
+            </li>
+            <li class="footer-menu-item">
+              <h2>Help</h2>
+              <ul class="list">
+                <li>
+                  <a class="link footer-menu-link" href="">Help center</a>
+                </li>
+                <li>
+                  <a class="link footer-menu-link" href="">Contact support</a>
+                </li>
+                <li>
+                  <a class="link footer-menu-link" href="">Instructions</a>
+                </li>
+                <li>
+                  <a class="link footer-menu-link" href="">How it works</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer> -->
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>

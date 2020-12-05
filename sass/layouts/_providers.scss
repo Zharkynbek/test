@@ -1,0 +1,34 @@
+.providers {
+  margin-left: auto;
+  background-image: url(../img/decor-dots.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 40px right -40px;
+}
+
+.providers .content-wrapper {
+  padding: 50px 0;
+  margin-left: auto;
+  @include for-size(desktop) {
+    padding: 150px 0;
+  }
+}
+
+.providers .content-wrapper:before {
+  @include for-size(mobile-only) {
+    content: " ";
+    display: block;
+    background-image: url("../img/healthcare-img.png");
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.providers > .container {
+  @include for-size(desktop) {
+    background-image: url(../img/healthcare-img.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+}

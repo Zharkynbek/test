@@ -1,0 +1,41 @@
+.footer {
+  padding-top: 109px;
+  padding-bottom: 109px;
+  background: url(../img/decor-dots-after.svg),
+    linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  background-repeat: no-repeat;
+  background-position: bottom -20px left -20px, center center;
+  color: #ffffff;
+}
+.footer .logo {
+  margin-bottom: 22px;
+  color: #ffffff;
+}
+.copyright-box {
+  width: calc(100% / 12 * 4);
+}
+
+.footed-menu {
+  width: calc(100% / 12 * 6);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-item {
+  flex-basis: calc((100% -60) / 3);
+}
+
+.footer-menu-link {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 2.11;
+  transition: font-weight 800ms linear;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  font-weight: 700;
+}

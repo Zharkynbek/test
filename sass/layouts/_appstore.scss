@@ -1,0 +1,31 @@
+.app-store > .container:before {
+  @include for-size(mobile-only) {
+    content: " ";
+    display: block;
+    background-image: url("../img/apps-img.png");
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.app-store > .container {
+  @include for-size(desktop) {
+    background-image: url(../img/apps-img.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+
+.app-store .content-wrapper {
+  padding: 50px 0;
+  @include for-size(desktop) {
+    padding: 150px 0;
+  }
+}
+
+.providers .btn,
+.app-store .btn {
+  margin-top: 40px;
+}
